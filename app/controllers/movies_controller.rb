@@ -7,7 +7,8 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.all
+    @sorted = params[:sortby]
+    @movies = Movie.find(:all, :order => @sorted)
   end
 
   def new
