@@ -1,5 +1,7 @@
 \#*\#
 *~
+
+
 TAGS
 db/schema.rb
 log/
@@ -9,3 +11,5 @@ tmp/
 # bundler state
 /.bundle
 /vendor/bundle/
+
+/config/database.yml
