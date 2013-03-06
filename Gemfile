@@ -1,16 +1,18 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '3.1.11'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do
-  gem 'sqlite3'
+  ###  gem 'sqlite3'
+  gem 'pg'
   gem 'debugger'
   # gem 'ruby-debug19', :require => 'ruby-debug'
 end
+
 group :production do
   gem 'pg'
 end

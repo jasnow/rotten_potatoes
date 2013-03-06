@@ -1,0 +1,2 @@
+rvm --default use ruby-1.9.3-p392@rotten_potatoes --create
+
